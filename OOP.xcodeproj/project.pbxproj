@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		225754651EB9326C00686DCC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225754641EB9326C00686DCC /* main.cpp */; };
+		2257546D1EB9376400686DCC /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2257546B1EB9376400686DCC /* Animal.cpp */; };
+		225754701EB9393700686DCC /* Cat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2257546E1EB9393700686DCC /* Cat.cpp */; };
+		225754731EB9394900686DCC /* Duck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 225754711EB9394900686DCC /* Duck.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		225754611EB9326C00686DCC /* OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OOP; sourceTree = BUILT_PRODUCTS_DIR; };
 		225754641EB9326C00686DCC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2257546B1EB9376400686DCC /* Animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
+		2257546C1EB9376400686DCC /* Animal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
+		2257546E1EB9393700686DCC /* Cat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cat.cpp; sourceTree = "<group>"; };
+		2257546F1EB9393700686DCC /* Cat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Cat.hpp; sourceTree = "<group>"; };
+		225754711EB9394900686DCC /* Duck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Duck.cpp; sourceTree = "<group>"; };
+		225754721EB9394900686DCC /* Duck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Duck.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				225754641EB9326C00686DCC /* main.cpp */,
+				225754711EB9394900686DCC /* Duck.cpp */,
+				225754721EB9394900686DCC /* Duck.hpp */,
+				2257546E1EB9393700686DCC /* Cat.cpp */,
+				2257546F1EB9393700686DCC /* Cat.hpp */,
+				2257546B1EB9376400686DCC /* Animal.cpp */,
+				2257546C1EB9376400686DCC /* Animal.hpp */,
 			);
 			path = OOP;
 			sourceTree = "<group>";
@@ -119,7 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				225754731EB9394900686DCC /* Duck.cpp in Sources */,
+				225754701EB9393700686DCC /* Cat.cpp in Sources */,
 				225754651EB9326C00686DCC /* main.cpp in Sources */,
+				2257546D1EB9376400686DCC /* Animal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +266,7 @@
 				2257546A1EB9326C00686DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
