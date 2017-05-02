@@ -21,8 +21,10 @@ int main(int argc, const char * argv[]) {
     newcat.meow();
     
     Duck duck;
+    duck.setAge(5);
     duck.quack();
     
-    std::cout << cat.getAge();
+    
+    std::cout << duck.getAge();
     return 0;
 }

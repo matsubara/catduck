@@ -8,10 +8,10 @@
 
 #ifndef Duck_hpp
 #define Duck_hpp
-
+#include "Animal.hpp"
 #include <stdio.h>
 
-class Duck {
+class Duck : public Animal {
 public:
     void quack(void);
 };
